@@ -78,11 +78,11 @@ module.exports = {
         ]
     },
     plugins: [
-        //new webpack.DefinePlugin({
-        //    'process.env':{
-        //        NODE_ENV: '"production"'
-        //    }
-        //}),
+        new webpack.DefinePlugin({
+           'process.env':{
+               NODE_ENV: '"production"'
+           }
+        }),
         new CleanWebpackPlugin(['dist']),
         new ExtractTextPlugin({
             filename:'style/main[hash:8].css',

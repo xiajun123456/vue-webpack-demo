@@ -42,8 +42,8 @@ compiler.plugin('compilation', function (compilation) {
 // 注册中间件
 app.use(devMiddleware);
 
-////// 注册中间件
-// app.use(hotMiddleware);
+//// 注册中间件
+app.use(hotMiddleware);
 
 
 //mock数据配置

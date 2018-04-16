@@ -15,11 +15,11 @@ config.output.publicPath = '/';
 // });
 
 config.plugins = [
-    new webpack.DefinePlugin({
-       'process.env':{
-           NODE_ENV: '"production"'
-       }
-    }),
+    // new webpack.DefinePlugin({
+    //    'process.env':{
+    //        NODE_ENV: '"production"'
+    //    }
+    // }),
     // new webpack.optimize.OccurrenceOrderPlugin(),
     // new webpack.HotModuleReplacementPlugin(),
     // new webpack.NoEmitOnErrorsPlugin(),
